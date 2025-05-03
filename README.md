@@ -1,74 +1,146 @@
-# quantium-data-analytics-virtual-interinship
-Introduction:
+📊 Introduction
+Quantium has partnered with a large supermarket chain, providing access to transactional and customer data. As an analyst in the Quantium Analytics team, your role is to deliver high-value data insights to support strategic business decisions.
 
-Quantium has had a data partnership with a large supermarket brand for the last few years who provide transactional and customer data. You are an analyst within the Quantium analytics team and are responsible for delivering highly valued data analytics and insights to help the business make strategic decisions.
+Supermarkets frequently adjust store layouts, product selections, pricing, and promotions to:
 
-Supermarkets will regularly change their store layouts, product selections, prices and promotions. This is to satisfy their customer’s changing needs and preferences, keep up with the increasing competition in the market or to capitalise on new opportunities. The Quantium analytics team are engaged in these processes to evaluate and analyse the performance of change and recommend whether it has been successful.
+Meet changing customer needs and preferences
 
-In this program you will learn key analytics skills such as:
+Stay ahead of competition
+
+Capitalize on emerging opportunities
+
+Quantium analysts are involved in evaluating the impact of these changes and making data-driven recommendations on their effectiveness.
+
+🧠 What You'll Learn
+In this program, you'll develop key analytics skills including:
 
 Data wrangling
+
 Data visualization
-Programming skills
+
+Programming
+
 Statistics
+
 Critical thinking
-Commercial thinking
-Task 1
-Data preparation and customer analytics
-Conduct analysis on your client's transaction dataset and identify customer purchasing behaviours to generate insights and provide commercial recommendations.
 
-Here is the background information on your task
+Commercial decision-making
 
-You are part of Quantium’s retail analytics team and have been approached by your client, the Category Manager for Chips, who wants to better understand the types of customers who purchase Chips and their purchasing behaviour within the region.
+📁 Task 1: Data Preparation and Customer Analytics
+🎯 Objective
+Conduct an analysis of the client's transaction dataset to uncover customer purchasing behaviors and generate commercial insights, specifically focusing on chip purchases.
 
-The insights from your analysis will feed into the supermarket’s strategic plan for the chip category in the next half year.
+🧾 Background
+You are assisting the Category Manager for Chips, who wants to understand the types of customers who purchase chips and their purchasing behavior across the region.
 
-Here is your task
+📌 Key Goals
+Generate actionable insights to support the strategic plan for the chips category over the next 6 months.
 
-We need to present a strategic recommendation to Julia that is supported by data which she can then use for the upcoming category review however to do so we need to analyse the data to understand the current purchasing trends and behaviours. The client is particularly interested in customer segments and their chip purchasing behaviour. Consider what metrics would help describe the customers’ purchasing behaviour.
+Understand current purchasing trends and behaviors.
 
-To get started, download the resource csv data files below and begin performing high level data checks such as:
+Segment customers by LIFESTAGE and PREMIUM_CUSTOMER type.
 
-Creating and interpreting high level summaries of the data
-Finding outliers and removing these (if applicable)
-Checking data formats and correcting (if applicable)
-You will also want to derive extra features such as pack size and brand name from the data and define metrics of interest to enable you to draw insights on who spends on chips and what drives spends for each customer segment. Remember our end goal is to form a strategy based on the findings to provide a clear recommendation to Julia the Category Manager so make sure your insights can have a commercial application.
+✅ Tasks
+Perform high-level data checks:
 
-LIFESTAGE: Customer attribute that identifies whether a customer has a family or not and what point in life they are at e.g. are their children in pre-school/primary/secondary school.
+Create data summaries
 
-PREMIUM_CUSTOMER: Customer segmentation used to differentiate shoppers by the price point of products they buy and the types of products they buy. It is used to identify whether customers may spend more for quality or brand or whether they will purchase the cheapest options.
+Identify and remove outliers
 
-Task 2
-Experimentation and uplift testing
-Extend your analysis from Task 1 to help you identify benchmark stores that allow you to test the impact of the trial store layouts on customer sales.
+Check and correct data formats
 
-Here is the background information on your task
+Feature engineering:
 
-You are part of Quantium’s retail analytics team and have been approached by your client, the Category Manager for Chips, has asked us to test the impact of the new trial layouts with a data driven recommendation to whether or not the trial layout should be rolled out to all their stores.
+Derive pack_size and brand from product names
 
-Here is your task
+Define key metrics such as:
 
-Julia has asked us to evaluate the performance of a store trial which was performed in stores 77, 86 and 88.
+Total spend
 
-To get started use the QVI_data dataset below or your output from task 1 and consider the monthly sales experience of each store.
+Purchase frequency
 
-This can be broken down by:
+Customer demographics
 
-total sales revenue
-total number of customers
-average number of transactions per customer
-Create a measure to compare different control stores to each of the trial stores to do this write a function to reduce having to re-do the analysis for each trial store. Consider using Pearson correlations or a metric such as a magnitude distance e.g. 1- (Observed distance – minimum distance)/(Maximum distance – minimum distance) as a measure.
+Identify and describe customer segments
 
-Once you have selected your control stores, compare each trial and control pair during the trial period. You want to test if total sales are significantly different in the trial period and if so, check if the driver of change is more purchasing customers or more purchases per customers etc.
+Provide commercial recommendations based on insights
 
-Task 3
-Analytics and commercial application
-Use your analytics and insights from Task 1 and 2 to prepare a report for your client, the Category Manager.
+🧪 Task 2: Experimentation and Uplift Testing
+🎯 Objective
+Evaluate the impact of a new store layout trial in select stores to determine whether it should be rolled out chain-wide.
 
-Here is the background information on your task
+🧾 Background
+The Category Manager for Chips has asked for a data-driven evaluation of trial layouts conducted in stores 77, 86, and 88.
 
-Task 3 is targeted specifically at building your ability to recognise commercial, actionable insights from your analysis and displaying it in a clear and concise way for your client, with minimal jargon. At Quantium, our analyst graduates sometimes work as what we like to call "hybrids" (a mix of analyst and consultant duties) so developing your presentation skills early is a huge win!
+📌 Key Goals
+Select benchmark (control) stores using similarity measures
 
-As both technical tasks 1 and 2 were open ended in terms of insights, this model answer will focus on the layout and the order of your inclusions, including where to include graphs, taglines, written insights and recommendations.
+Measure sales impact during the trial using:
 
-As part of Quantium’s retail analytics team, you have been conducting a range of analysis on transaction and purchase behaviour data to provide key recommendations to your client, the Category Manager of chips, who is putting together their strategic plan.
+Total sales revenue
+
+Number of customers
+
+Average transactions per customer
+
+✅ Tasks
+Use the QVI_data dataset or Task 1 outputs
+
+Calculate similarity metrics (e.g. Pearson correlation or magnitude distance) to select control stores
+
+Write a reusable function for control store selection
+
+Analyze trial vs control performance:
+
+Is the increase in sales significant?
+
+Are changes due to more customers or more purchases?
+
+📈 Task 3: Analytics & Commercial Application
+🎯 Objective
+Present a clear, concise report of your findings and strategic recommendations to the Category Manager.
+
+📌 Focus Areas
+Translate technical insights into business recommendations
+
+Use minimal jargon
+
+Highlight commercially actionable insights
+
+✅ Report Guidelines
+Structure:
+
+Introduction
+
+Methodology
+
+Insights (with graphs and taglines)
+
+Commercial Recommendations
+
+Visuals:
+
+Use charts to illustrate key trends and comparisons
+
+Highlight segment-level behaviors
+
+Recommendations:
+
+Should be data-backed
+
+Clear and relevant to strategic planning
+
+🧷 Definitions
+LIFESTAGE: Identifies whether a customer has a family and what stage they're at (e.g., pre-school, primary, secondary).
+
+PREMIUM_CUSTOMER: Classifies shoppers based on spending habits and brand preference (e.g., premium vs. budget shoppers).
+
+📌 Final Deliverables
+Jupyter Notebook or Python scripts
+
+Cleaned and prepared datasets
+
+Control store selection functions
+
+Strategic presentation/report for Category Manager
+
