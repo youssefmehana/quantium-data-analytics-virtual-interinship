@@ -1,146 +1,142 @@
-📊 Introduction
+
+
+## 📊 Introduction
+
 Quantium has partnered with a large supermarket chain, providing access to transactional and customer data. As an analyst in the Quantium Analytics team, your role is to deliver high-value data insights to support strategic business decisions.
 
 Supermarkets frequently adjust store layouts, product selections, pricing, and promotions to:
 
-Meet changing customer needs and preferences
-
-Stay ahead of competition
-
-Capitalize on emerging opportunities
+* Meet changing customer needs and preferences
+* Stay ahead of competition
+* Capitalize on emerging opportunities
 
 Quantium analysts are involved in evaluating the impact of these changes and making data-driven recommendations on their effectiveness.
 
-🧠 What You'll Learn
+
+## 🧠 What You'll Learn
+
 In this program, you'll develop key analytics skills including:
 
-Data wrangling
+* Data wrangling
+* Data visualization
+* Programming
+* Statistics
+* Critical thinking
+* Commercial decision-making
 
-Data visualization
 
-Programming
+## 📁 Task 1: Data Preparation and Customer Analytics
 
-Statistics
+### 🎯 Objective
 
-Critical thinking
+Conduct an analysis of the client's transaction dataset to uncover customer purchasing behaviors and generate commercial insights, specifically focusing on **chip purchases**.
 
-Commercial decision-making
+### 🧾 Background
 
-📁 Task 1: Data Preparation and Customer Analytics
-🎯 Objective
-Conduct an analysis of the client's transaction dataset to uncover customer purchasing behaviors and generate commercial insights, specifically focusing on chip purchases.
+You are assisting the **Category Manager for Chips**, who wants to understand the types of customers who purchase chips and their purchasing behavior across the region.
 
-🧾 Background
-You are assisting the Category Manager for Chips, who wants to understand the types of customers who purchase chips and their purchasing behavior across the region.
+### 📌 Key Goals
 
-📌 Key Goals
-Generate actionable insights to support the strategic plan for the chips category over the next 6 months.
+* Generate actionable insights to support the **strategic plan** for the chips category over the next 6 months.
+* Understand current **purchasing trends** and behaviors.
+* Segment customers by **LIFESTAGE** and **PREMIUM\_CUSTOMER** type.
 
-Understand current purchasing trends and behaviors.
+### ✅ Tasks
 
-Segment customers by LIFESTAGE and PREMIUM_CUSTOMER type.
+1. Perform high-level data checks:
 
-✅ Tasks
-Perform high-level data checks:
+   * Create data summaries
+   * Identify and remove outliers
+   * Check and correct data formats
 
-Create data summaries
+2. Feature engineering:
 
-Identify and remove outliers
+   * Derive `pack_size` and `brand` from product names
+   * Define key metrics such as:
 
-Check and correct data formats
+     * Total spend
+     * Purchase frequency
+     * Customer demographics
 
-Feature engineering:
+3. Identify and describe customer segments
 
-Derive pack_size and brand from product names
+4. Provide commercial recommendations based on insights
 
-Define key metrics such as:
 
-Total spend
+## 🧪 Task 2: Experimentation and Uplift Testing
 
-Purchase frequency
+### 🎯 Objective
 
-Customer demographics
+Evaluate the impact of a **new store layout trial** in select stores to determine whether it should be rolled out chain-wide.
 
-Identify and describe customer segments
+### 🧾 Background
 
-Provide commercial recommendations based on insights
+The **Category Manager for Chips** has asked for a data-driven evaluation of trial layouts conducted in stores **77, 86, and 88**.
 
-🧪 Task 2: Experimentation and Uplift Testing
-🎯 Objective
-Evaluate the impact of a new store layout trial in select stores to determine whether it should be rolled out chain-wide.
+### 📌 Key Goals
 
-🧾 Background
-The Category Manager for Chips has asked for a data-driven evaluation of trial layouts conducted in stores 77, 86, and 88.
+* Select **benchmark (control)** stores using similarity measures
+* Measure sales impact during the trial using:
 
-📌 Key Goals
-Select benchmark (control) stores using similarity measures
+  * Total sales revenue
+  * Number of customers
+  * Average transactions per customer
 
-Measure sales impact during the trial using:
+### ✅ Tasks
 
-Total sales revenue
+1. Use the `QVI_data` dataset or Task 1 outputs
+2. Calculate similarity metrics (e.g. Pearson correlation or magnitude distance) to select control stores
+3. Write a **reusable function** for control store selection
+4. Analyze trial vs control performance:
 
-Number of customers
+   * Is the increase in sales significant?
+   * Are changes due to more customers or more purchases?
 
-Average transactions per customer
 
-✅ Tasks
-Use the QVI_data dataset or Task 1 outputs
+## 📈 Task 3: Analytics & Commercial Application
 
-Calculate similarity metrics (e.g. Pearson correlation or magnitude distance) to select control stores
+### 🎯 Objective
 
-Write a reusable function for control store selection
+Present a clear, concise report of your findings and strategic recommendations to the **Category Manager**.
 
-Analyze trial vs control performance:
+### 📌 Focus Areas
 
-Is the increase in sales significant?
+* Translate technical insights into **business recommendations**
+* Use minimal jargon
+* Highlight **commercially actionable** insights
 
-Are changes due to more customers or more purchases?
+### ✅ Report Guidelines
 
-📈 Task 3: Analytics & Commercial Application
-🎯 Objective
-Present a clear, concise report of your findings and strategic recommendations to the Category Manager.
+1. **Structure:**
 
-📌 Focus Areas
-Translate technical insights into business recommendations
+   * Introduction
+   * Methodology
+   * Insights (with graphs and taglines)
+   * Commercial Recommendations
 
-Use minimal jargon
+2. **Visuals:**
 
-Highlight commercially actionable insights
+   * Use charts to illustrate key trends and comparisons
+   * Highlight segment-level behaviors
 
-✅ Report Guidelines
-Structure:
+3. **Recommendations:**
 
-Introduction
+   * Should be data-backed
+   * Clear and relevant to strategic planning
 
-Methodology
 
-Insights (with graphs and taglines)
+## 🧷 Definitions
 
-Commercial Recommendations
+* **LIFESTAGE**: Identifies whether a customer has a family and what stage they're at (e.g., pre-school, primary, secondary).
+* **PREMIUM\_CUSTOMER**: Classifies shoppers based on spending habits and brand preference (e.g., premium vs. budget shoppers).
 
-Visuals:
 
-Use charts to illustrate key trends and comparisons
 
-Highlight segment-level behaviors
+## 📌 Final Deliverables
 
-Recommendations:
+* Jupyter Notebook or Python scripts
+* Cleaned and prepared datasets
+* Control store selection functions
+* Strategic presentation/report for Category Manager
 
-Should be data-backed
-
-Clear and relevant to strategic planning
-
-🧷 Definitions
-LIFESTAGE: Identifies whether a customer has a family and what stage they're at (e.g., pre-school, primary, secondary).
-
-PREMIUM_CUSTOMER: Classifies shoppers based on spending habits and brand preference (e.g., premium vs. budget shoppers).
-
-📌 Final Deliverables
-Jupyter Notebook or Python scripts
-
-Cleaned and prepared datasets
-
-Control store selection functions
-
-Strategic presentation/report for Category Manager
 
